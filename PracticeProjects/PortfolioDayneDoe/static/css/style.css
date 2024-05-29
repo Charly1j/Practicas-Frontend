@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    width: 980px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(65,23,39,1) 0%, rgba(80,80,85,1) 49%, rgba(62,24,43,1) 100%);
+}
+
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+
+#me-img{
+    width: 400px;
+    border: 5px solid #c0c0c0;
+    margin: 10px 10px;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: linear-gradient(90deg, rgba(65,23,39,1) 0%, rgba(80,80,85,1) 49%, rgba(62,24,43,1) 100%);
+}
+.about-me h2{
+    background-image: linear-gradient(to bottom, #b5b5b5, #9d9c9d, #858585, #6f6d6e, #595757);
+}
+.about-me{
+    background-color: #ffffff;
+    margin: 10px 10px;
+}
+
+.project{
+    width: 280px;
+    height: 560px;
+    background: linear-gradient(to bottom right, rgb(204, 199, 199), rgb(180, 163, 163));
+}
+.project img{
+    width: 270px;
+}
+.project h2{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(254, 253, 253), rgb(159, 157, 157));
+}
+.tech-images img{
+    width: 40px;
+    height: 40px;
+}
+
+#projects{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+footer{
+    background-color: white;
+}
+footer img{
+    height: 15px;
+    width: 15px;
+    padding-left: 100px;
+    display: inline-block;
+    
+}
+footer>p{
+    margin-left: 400px;
+}
+.project>button{
+    margin: 20px 70px;
+    width:120px;
+    height:25px;
+    background-color: #407d61;
+    border-radius: 5px;
+}

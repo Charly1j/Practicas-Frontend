@@ -1,0 +1,38 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    
+}
+header{
+    background-color: #cf3036;
+    border-radius: 10px ; 
+    width: 1170px;
+    margin-left: 5px;
+}
+body{
+    background-color: darkblue;
+
+}
+.tabla{
+    background-color:#2a7d8c;
+    border-radius: 10px ; 
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+.bodys{
+    background-color: #0e1822;
+    width: 900px;
+    border-radius: 10px ; 
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+footer{
+    background-color: grey;
+    border-radius: 20px ;
+    margin-top: 20px; 
+    width: 1170px;
+}

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 1500px;
+    background-color: #245076;
+}
+
+header{
+    display: flex;
+}
+#sec-superior{
+    font-size: xx-large;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    font-size: 21px;
+    justify-content: space-around;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: #457cad;
+    width: 1400px;
+    height: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+.colorL{
+    color: white;
+    text-decoration: none;
+    font-size:xx-large;
+}
+
+#sec-inferior, #sec-superior, footer ul {
+    display: flex;
+}
+#sec-inferior{
+    background-color: white;
+    font-size: xx-large;
+}
+.sec-inf>h4{
+    text-align: center;
+    
+}
+.sec-inf>p{
+    width: 640px;    
+}
+.colorL2{
+    font-style: none;
+    color: #9cc0e0;
+    text-decoration: none;
+}
+/* .line{
+    color: solid #72a6d4;
+    height: 5px;
+    width: 800px;
+}*/ 
+
+#side-nav{
+    text-align: center;
+    list-style: none;
+    margin-left: 80px;
+    color: white;
+}
+#side-nav span{
+    color:yellow;
+    font-size: 8px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#side-nav a{
+    color:white;
+}
+
+#main-content{
+    width: 1000px;
+    text-align: center;
+    vertical-align:top ;
+    margin-left:25px ;
+    
+}
+#main-content>p{
+    width: 1000px;
+    color: white;
+}
+#main-content>H3{
+    color: #d5b300;
+    margin: 15px;
+}
+#main-content>H4{
+    color: white;
+}
+
+.sec-inf{
+    border-top: #6da3d3 solid 5px;
+    margin: 20px 20px;
+    padding-top: 20px;
+    background-color: white;
+    justify-content: space-around;
+    padding: 15px 40px;
+    text-align: center;
+}
+#sec-inferior ul{
+    list-style: square;
+    font-size: x-large;
+}
+hr{
+    width: 100px;
+}
+#formulario-busqueda{
+    display: inline-fle;
+    margin-left: 500px;
+    font-size: x-large;
+} 
+.Textw{
+    color: #d5b300;
+}
+.busqueda{
+    background-color: #444444;
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+.busqueda>input{
+    margin: 30px 10px;
+    font-size: xx-large;
+    width: 300px;
+}
+.busqueda>button{
+    font-size: xx-large;
+    padding: 2px;
+    background-color: #245076;
+    border-radius: 5px;
+    border-color: #bebfbf;
+
+}
+footer{
+    width: 200px;
+    height: 100px;
+    font-size: xxx-large;
+    display: inline;
+    text-align: center;
+}
+.f{
+    opacity:.5;
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    margin: 20px;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+body{
+    background-color: blanchedalmond; 
+    margin-left: 100px;
+}
+header img{
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+header{
+    margin-left: px;
+    align-items: center;
+    display: flex;
+}
+.line img{
+    width: 100px;
+    height: 100px;
+    background-color:skyblue ;
+    padding: 10px;
+    border: 3px black solid;
+}
+.trans img{
+    width: 100px;
+    height: 100px;
+    background-color: #f36870;
+    padding: 10px;
+    border: 3px black solid;
+}
+#images{
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
